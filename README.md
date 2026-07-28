@@ -7,7 +7,11 @@ A hands-on monitoring and visualization lab built with Grafana, Ubuntu Server, V
 This project documents my progress building a home lab for learning industrial data monitoring, visualization, and troubleshooting.
 
 The lab is designed to develop skills relevant to process technology and industrial data systems, including Grafana, Azure Data Explorer, Aspen InfoPlus.21, Linux administration, and time-series data.
+## Dashboard Preview
 
+![Grafana process monitoring dashboard](screenshots/process-monitoring-dashboard.png)
+
+This dashboard visualizes simulated industrial process data, including reactor temperature, feed flow, pump status, and a gauge measurement.
 ## Lab Architecture
 
 ```text
