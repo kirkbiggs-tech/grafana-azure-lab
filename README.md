@@ -13,8 +13,22 @@ The lab is designed to develop skills relevant to process technology and industr
 
 This dashboard visualizes simulated industrial process data, including reactor temperature, feed flow, pump status, and a gauge measurement.
 ## Lab Architecture
+```mermaid
+flowchart TD
+    PC["Home PC<br/>Windows"]
+    VM["VMware Workstation"]
+    UB["Ubuntu Server 24.04 LTS"]
+    GF["Grafana Server"]
+    ADX["Azure Data Explorer"]
+    DB["Process Monitoring Dashboard"]
 
-```text
+    PC --> VM
+    VM --> UB
+    UB --> GF
+    ADX --> GF
+    GF --> DB
+```
+
 Home PC
    |
 VMware Workstation
